@@ -1,0 +1,1 @@
+UCErrorType=Object.freeze({UnknownError:1,NoError:2,CameraPermissionDenied:3,SettingsPermissionDenied:4,HardwareError:5});var keysUCErrorType=Object.keys(UCErrorType).reduce(function(b,a){return b[UCErrorType[a]]=a,b},{});UCErrorType.getEnumUCErrorType=function(a){return keysUCErrorType[a]};module.exports.UCErrorType=UCErrorType;

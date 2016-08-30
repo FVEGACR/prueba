@@ -1,0 +1,14 @@
+{
+  "name": "facephi-plugin-user-control",
+  "version": "1.0.0",
+  "description": "FacePhi User Control Plugin",
+  "cordova": {
+    "id": "facephi-plugin-user-control",
+    "platforms": [
+      "android"
+    ]
+  },
+  "peerDependencies": {
+    "cordova-plugin-file": ">=2.0.0"
+  }
+}
