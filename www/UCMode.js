@@ -1,1 +1,0 @@
-UCMode=Object.freeze({Authenticate:"Authenticate",WizardRegister:"WizardRegister",WizardLiveness:"WizardLiveness"});var keysUCMode=Object.keys(UCMode).reduce(function(b,a){return b[UCMode[a]]=a,b},{});UCMode.getEnumUCMode=function(a){return keysUCMode[a]};module.exports.UCMode=UCMode;

@@ -1,1 +1,0 @@
-function typeOf(a){return{}.toString.call(a).match(/\s(\w+)/)[1].toLowerCase()}function checkTypes(a,c){a=[].slice.call(a);for(var b=0;b<c.length;++b){if(typeOf(a[b])!=c[b]){throw new TypeError("param "+b+" must be of type "+c[b])}}};
