@@ -1,1 +1,0 @@
-UCFinishStatus=Object.freeze({Ok:1,Error:2,CancelByUser:3,Timeout:4});var keysUCFinishStatus=Object.keys(UCFinishStatus).reduce(function(b,a){return b[UCFinishStatus[a]]=a,b},{});UCFinishStatus.getEnumUCFinishStatus=function(a){return keysUCFinishStatus[a]};module.exports.UCFinishStatus=UCFinishStatus;
